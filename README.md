@@ -16,14 +16,7 @@ SmartComputerPlayer: This class represents a computer player and makes intellige
 ```
 The play() function is the main driver of the game. It takes three arguments: the game object, the X player object, and the O player object. It runs a loop that alternates between the two players until the game ends in a win or a tie. It also prompts the user to leave or continue playing after the game ends.
 
-To run the game, simply run the script in a Python environment. The game will prompt the user to make moves and display the board after each move. The computer player will make intelligent moves based on the current state of the board. The user can choose to leave or continue playing after the game ends.
-
-
-This code implements the game of Tic Tac Toe, a two-player game where the players take turns marking the spaces on a 3x3 grid with their symbol, X or O. The goal of the game is to be the first to get three in a row.
-
-The code defines a TicTacToe class which initializes the board and keeps track of the current winner. It also includes methods for printing the board, making a move, and checking for a winner.
-
-The game is played using the play() function which takes instances of the HumanPlayer and SmartComputerPlayer classes as arguments for the 'O' and 'X' players respectively. The game is played until there are no more empty squares on the board or a player wins.
+### The game is played until there are no more empty squares on the board or a player wins.
 
 If the game ends in a tie, the function prompts the user to either leave the game or start a new one. If a winner is declared, the function simply returns the winner and ends the game.
 
