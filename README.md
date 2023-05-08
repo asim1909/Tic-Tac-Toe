@@ -33,6 +33,17 @@ The game will continue until there are no more empty squares or a player wins.
 If the game ends in a tie, the user will be prompted to either leave the game or start a new one.
 If a player wins, the game will end and the winner will be declared.
 
+# Sample
+```
+| 0 | 1 | 2 |
+| 3 | 4 | 5 |
+| 6 | 7 | 8 |
+X makes a move to square 1
+|   | X |   |
+|   |   |   |
+|   |   |   |
+```
+
 # Requirements:
 ```
 Python 3.x
