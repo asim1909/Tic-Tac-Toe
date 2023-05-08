@@ -33,15 +33,62 @@ The game will continue until there are no more empty squares or a player wins.
 If the game ends in a tie, the user will be prompted to either leave the game or start a new one.
 If a player wins, the game will end and the winner will be declared.
 
-# Sample
+# Sample Play
 ```
 | 0 | 1 | 2 |
 | 3 | 4 | 5 |
 | 6 | 7 | 8 |
+X makes a move to square 3
+|   |   |   |
+| X |   |   |
+|   |   |   |
+
+O's turn. Input move (0-9): 0
+O makes a move to square 0
+| O |   |   |
+| X |   |   |
+|   |   |   |
+
 X makes a move to square 1
-|   | X |   |
+| O | X |   |
+| X |   |   |
 |   |   |   |
+
+O's turn. Input move (0-9): 4
+O makes a move to square 4
+| O | X |   |
+| X | O |   |
 |   |   |   |
+
+X makes a move to square 8
+| O | X |   |
+| X | O |   |
+|   |   | X |
+
+O's turn. Input move (0-9): 6
+O makes a move to square 6
+| O | X |   |
+| X | O |   |
+| O |   | X |
+
+X makes a move to square 2
+| O | X | X |
+| X | O |   |
+| O |   | X |
+
+O's turn. Input move (0-9): 5
+O makes a move to square 5
+| O | X | X |
+| X | O | O |
+| O |   | X |
+
+X makes a move to square 7
+| O | X | X |
+| X | O | O |
+| O | X | X |
+
+It's a tie!
+Do you want to leave the game? (y/n): n
 ```
 
 # Requirements:
