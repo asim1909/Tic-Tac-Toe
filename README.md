@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-The classic game Tic Tac Toe
+
 
 This code is an implementation of the classic game Tic Tac Toe, which is played on a 3x3 grid. There are two players, X and O, who take turns marking their symbol on the grid. The first player to get three of their symbols in a row, either horizontally, vertically, or diagonally, wins the game. If all squares on the grid are filled and neither player has won, the game is a tie.
 
@@ -46,3 +46,7 @@ Follow the on-screen prompts to play the game.
 
 # Credits:
 This program was developed or Modified By @asim1909
+
+```
+Have fun playing Tic Tac Toe!
+```
